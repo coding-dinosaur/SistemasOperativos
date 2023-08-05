@@ -18,3 +18,6 @@ Repositorio con los commands de sistemas operativos
 |`scp`| Copiar archivos o directorios con Secure Shell (Puede ser para copiar un archivo de una servidor remoto a uno local. | `scp usuario@servidor_remoto:/ruta/archivo.txt /ruta/local/`|
 |`curl`| Para entrar o hacer request a una página web. | `su` (después de ejecutarlo, se tiene que ingresar la contraseña)|
 |`su`| Entrar como a root de permisos. | `nombre=Mario curl -X GET -Lhttps://script.google.com/macros/s/AKfycby61tcPuNY3dw_3IYqNGFnR6Ei55MrLFPe_PHup_VMnGP07HeoRyIy5W8xlrheMB7vJ/exec?data=$nombre`(este es el ejemplo del la hoja de cáculo del prof)|
+|`wget`| Para descargar archivos desde una página. | `wget https://wordpress.org/latest.zip`|
+|`git clone`| Clonar directorios de Git, con el link. | `git clone https://github.com/mortasoft/linux-scripts`|
+|`tar unrar`| Para descomprimir archivos .rar. | `cp archivo.txt nuevo_destino`|
