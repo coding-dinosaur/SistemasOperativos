@@ -21,3 +21,6 @@ Repositorio con los commands de sistemas operativos
 |`wget`| Para descargar archivos desde una página. | `wget https://wordpress.org/latest.zip`|
 |`git clone`| Clonar directorios de Git, con el link. | `git clone https://github.com/mortasoft/linux-scripts`|
 |`tar unrar`| Para descomprimir archivos .rar. | `cp archivo.txt nuevo_destino`|
+|`CMD`| En un Dockerfile, para que cuando se corra el contenedor, se realice o  muestre ese resultado. | `CMD [uname]` (en el caso de ubuntu, muestra Linux)|
+|`FROM`| Se usa para manerajr la distribución. | `FROM ubuntu` o `FROM ubuntu:22.04` (Se ponen los dos puntitos para definir la versión, si no se pone nada, se usa la latest)|
+|`RUN`| Para correr algo durante el Dockerfile. | `RUN echo "HOLA!"`|
